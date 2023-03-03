@@ -226,7 +226,6 @@ main{
     "carta6"
     "carta7";
     gap: 2em;
-    
     padding: 1em;
     
     
@@ -234,6 +233,7 @@ main{
 @media (min-width: 600px){
     
     .grillaJug{
+        grid-template-rows: repeat(4, 35em);
         grid-template-areas: 
         "carta1 carta2"
         "carta3 carta4"
@@ -243,6 +243,7 @@ main{
 }
 @media (min-width: 900px){
     .grillaJug{
+        grid-template-rows: repeat(3, 35em);
         grid-template-areas: 
         "carta1 carta2 carta3"
         "carta4 carta5 carta6"
